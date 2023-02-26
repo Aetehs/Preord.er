@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat';
+}
+h1,h2,h3,h4,p {
+    color: white;
+}
+
+body {
+    background: -webkit-linear-gradient(left ,rgb(255,0,110), rgb(178,0,255))
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    background-color: rgb(37, 37, 37);
+}
+.logo {
+    margin: 3px;
+}
+
+h2[id=name]{
+    margin-bottom:20px;
+}
+
+div[id=titleinfo] {
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 425px;
+    width: 665px;
+    background-color: rgb(22, 22, 22);
+    margin-right: 45px;
+    margin-top: 45px;
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    transition-duration: 0.4s;
+}
+div[id=texts] {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+div[id=titleinfo]:hover {
+    background-color: rgb(22, 22, 22, 0.65);
+    transition-duration: 0.4s;
+    height: 735px;
+}
+div[id=preorders] {
+    height: 275px;
+    width: 100%;
+    background-color: rgb(22, 22, 22, 0.5);
+    
+}
+h2[id=preorders] {
+    margin-top: 500px;
+}
+
+div[id=pre1] {
+    align-items: center;
+    justify-content: center;
+    height: 275px;
+    width: 275px;
+    background-color: rgb(22, 22, 22, 0.75);
+    margin-left: 45px;
+    margin-top: 555px;
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+}
+.img1 {
+    margin: 25px 25px 25px 85px;
+}
+div[id=pre1text] {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 200px;
+    height: 64px;
+    margin-left: 37px
+}
+/*                        decos                                */
+
+div[id=deco1] {
+    float: right;
+    height: 125px;
+    width: 256px;
+    background-color: rgb(22, 22, 22);
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    margin-top: 46px;
+    margin-right: 25px;
+}
+div[id=deco2] {
+    float: left;
+    height: 100px;
+    width: 225px;
+    background-color: rgb(22, 22, 22);
+    border-top-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    margin-top: 46px;
+    margin-left: 25px;
+}
